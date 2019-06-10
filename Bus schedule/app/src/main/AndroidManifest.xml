@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blogspot.androidminto.navigation4dev" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="বাসের সময়সূচি"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="বাসের সময়সূচি"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".TeacherCampus"
+            android:label="@string/title_activity_teacher_campus"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".TeacherSadar"
+            android:label="@string/title_activity_teacher_sadar"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".StudentCampus"
+            android:label="@string/title_activity_student_campus"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".StudentSadar"
+            android:label="@string/title_activity_student_sadar"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".StaffCampus"
+            android:label="@string/title_activity_staff_campus"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".StaffSadar"
+            android:label="@string/title_activity_staff_sadar"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".AboutMe"
+            android:label="@string/title_activity_about_me"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".AzizVai"
+            android:label="@string/title_activity_aziz_vai"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".OffDay"
+            android:label="@string/title_activity_off_day"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".Offday1"
+            android:label="@string/title_activity_offday1"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".TeacherRoad"
+            android:label="@string/title_activity_teacher_road"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".StudentRoad"
+            android:label="@string/title_activity_student_road"
+            android:theme="@style/AppTheme" >
+        </activity>
+    </application>
+
+</manifest>

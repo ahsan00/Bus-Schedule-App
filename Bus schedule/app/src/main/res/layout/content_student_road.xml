@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_student_road"
+    tools:context="com.blogspot.androidminto.navigation4dev.StudentRoad">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffffff">
+            <!-- Row 1 with single column -->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Road One"
+                    android:layout_span="3"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:background="#7a33ff"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <!-- Row 3 with 2 columns -->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:background="#b0b0b0">
+                <TextView
+
+                    android:text="Campus -> Sosan Ghat -> Amtoli -> Kagmari Bridge -> Baby Stand -> Santiconjo More -> Moder More -> Nirala More -> Press Club -> Bat Tola -> District Gate -> Notun Bas Stand -> Sarak Vhaban -> Komudiny College Gate -> Poran Bus Stand -> Kalibari More -> Nirala More.........Campus"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Road Two"
+                    android:layout_span="3"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:background="#4e33ff"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <!-- Row 3 with 2 columns -->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:background="#b0b0b0">
+                <TextView
+
+                    android:text="Campus -> Sosan Ghat -> Amtoli -> Kagmari Bridge -> Baby Stand -> Santiconjo More -> Moder More -> Nirala More -> Kalibari Road -> Poran Bus Stand -> Komudiny College gate -> District Gate -> Notun Bas Stand -> Sarak Vhaban -> Komudiny College Gate -> Poran Bus Stand -> Kalibari More -> Nirala More.........Campus"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Thank You."
+                    android:layout_span="3"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:background="#000000"
+                    android:textColor="#000"/>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

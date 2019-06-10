@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/al">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Mawlana Bhashani Science and Technology University is a government financed public university of Bangladesh. It is named after the charismatic, legendary political leader of the country Mawlana Bhashani."/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_below="@+id/text1"
+        android:layout_height="wrap_content"
+        android:id="@+id/roadone"
+        android:onClick="minto"
+        android:layout_margin="25dp"
+        android:text="Teacher's Bus Road"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/roadone"
+        android:id="@+id/roadtwo"
+        android:onClick="minto"
+        android:layout_margin="25dp"
+        android:text="Student and other Bus Road"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LET'S GO"
+        android:textStyle="bold"
+        android:layout_below="@+id/roadtwo"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textColor="#27f527"/>
+</RelativeLayout>
+    </ScrollView>

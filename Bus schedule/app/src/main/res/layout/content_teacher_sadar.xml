@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_teacher_sadar"
+    tools:context="com.blogspot.androidminto.navigation4dev.TeacherSadar">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/mbstu">
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"  android:stretchColumns="*"
+            >
+
+            <!-- Row 1 with single column -->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="MBSTU Bus Service schedule              (Sadar to Campus)"
+                    android:layout_span="3"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:background="#6933ff"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <!-- Row 2 with 3 columns -->
+            <TableRow
+
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="#b0b0b0">
+                <TextView
+
+                    android:text="Trip No"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+                <TextView
+
+                    android:text="Time"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+                <TextView
+
+                    android:text="Bus No"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <!-- Row 3 with 2 columns -->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:background="#b0b0b0">
+                <TextView
+
+                    android:text="1."
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+                <TextView
+
+                    android:text="7.30AM"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+
+                <TextView
+
+                    android:text="MicroBus"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:background="#b0b0b0">
+                <TextView
+
+                    android:text="2."
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+                <TextView
+
+                    android:text="8.30AM"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+
+                <TextView
+
+                    android:text="Micro Bus , Mini Bus"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:background="#b0b0b0">
+                <TextView
+
+                    android:text="3."
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+                <TextView
+
+                    android:text="9.30AM"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:textColor="#000000"
+                    android:padding="6dip"
+                    android:gravity="center"/>
+
+                <TextView
+
+                    android:text="Micro Bus , Mini Bus"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:background="#b0b0b0">
+                <TextView
+
+                    android:text="4."
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+                <TextView
+
+                    android:text="2.20PM"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:textColor="#000000"
+                    android:padding="6dip"
+                    android:gravity="center"/>
+
+                <TextView
+
+                    android:text="Micro Bus (Two)"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:background="#b0b0b0">
+                <TextView
+
+                    android:text="5."
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+                <TextView
+
+                    android:text="4.30PM"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+
+                <TextView
+
+                    android:text="Micro Bus , Mini Bus"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:background="#b0b0b0">
+                <TextView
+
+                    android:text="6."
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+                <TextView
+
+                    android:text="5.30PM"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+
+                <TextView
+
+                    android:text="Micro Bus , Mini Bus"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:background="#b0b0b0">
+                <TextView
+
+                    android:text="7."
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+                <TextView
+
+                    android:text="8.30PM"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+
+                <TextView
+
+                    android:text="Micro Bus"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:textColor="#000000"
+                    android:padding="10dip"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Thank You."
+                    android:layout_span="3"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:background="#334eff"
+                    android:textColor="#000"/>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/al">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Mawlana Bhashani Science and Technology University is a government financed public university of Bangladesh. It is named after the charismatic, legendary political leader of the country Mawlana Bhashani."/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_below="@+id/text1"
+        android:layout_height="wrap_content"
+        android:id="@+id/staffOne"
+        android:onClick="minto"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="MBSTU To TOWN"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/staffOne"
+        android:id="@+id/staffTwo"
+        android:onClick="minto"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="TOWN to MBSTU"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LET'S GO"
+        android:textStyle="bold"
+        android:layout_below="@+id/staffTwo"
+        android:textSize="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:textColor="#2750f5"/>
+</RelativeLayout>
+    </ScrollView>
